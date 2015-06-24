@@ -16,5 +16,11 @@ var app = new EmberApp();
 // modules that you would like to import into your application
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
-
+app.import('vendor/moderizer.flexbot');
+app.import('bower_components/fontawesome/fonts/fontawesome-webfont.eot', {destDir: 'fonts' });
+app.import('bower_components/fontawesome/fonts/fontawesome-webfont.svg', {destDir: 'fonts' });
+app.import('bower_components/fontawesome/fonts/fontawesome-webfont.ttf', {destDir: 'fonts' });
+app.import('bower_components/fontawesome/fonts/fontawesome-webfont.woff', {destDir: 'fonts'});
+app.import('bower_components/fontawesome/fonts/fontawesome-webfont.woff2', {destDir: 'fonts'});
+app.import('bower_components/fontawesome/fonts/fontawesome.otf', {destDir: 'fonts'});
 module.exports = app.toTree();
